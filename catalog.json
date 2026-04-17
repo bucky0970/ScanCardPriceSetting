@@ -48,7 +48,7 @@
     {
       "id": "ws",
       "type": "downloadable",
-      "version": 1,
+      "version": 2,
       "name": "WS黑白雙翼",
       "icon": "rectangle.stack.fill",
       "color": "CC0000",
