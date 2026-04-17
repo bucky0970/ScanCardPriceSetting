@@ -1,0 +1,39 @@
+{
+  "games": [
+    {
+      "id": "gcg",
+      "type": "builtin",
+      "version": 1,
+      "name": "鋼彈卡牌",
+      "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/gcg.json"
+    },
+    {
+      "id": "pokemon",
+      "type": "builtin",
+      "version": 1,
+      "name": "寶可夢卡牌",
+      "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/pokemon.json"
+    },
+    {
+      "id": "mtg",
+      "type": "builtin",
+      "version": 1,
+      "name": "魔法風雲會",
+      "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/mtg.json"
+    },
+    {
+      "id": "hocg",
+      "type": "builtin",
+      "version": 1,
+      "name": "hololive 卡牌",
+      "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/hocg.json"
+    },
+    {
+      "id": "ygo",
+      "type": "builtin",
+      "version": 1,
+      "name": "遊戲王",
+      "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/ygo.json"
+    }
+  ]
+}

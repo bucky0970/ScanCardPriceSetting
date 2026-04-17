@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "id": "hocg",
+  "name": "hololive 卡牌",
+  "icon": "star.fill",
+  "color": "00B4FF",
+  "description": "hololive 偶像卡牌辨識",
+  "priceService": "yuyu",
+  "gameCode": "hocg",
+  "regions": [
+    {
+      "name": "卡牌編號",
+      "type": "text",
+      "rect": { "x": 0.84, "y": 0.9481, "width": 0.1425, "height": 0.0429 },
+      "presetType": "cardNumber",
+      "languages": ["en-US"],
+      "languageCorrection": false,
+      "normalize": [
+        { "type": "trim" },
+        { "type": "uppercase" },
+        { "type": "removeSpaces" }
+      ]
+    }
+  ]
+}

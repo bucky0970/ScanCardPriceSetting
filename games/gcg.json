@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "gcg",
+  "name": "鋼彈卡牌",
+  "icon": "shield.fill",
+  "color": "1E90FF",
+  "description": "Gundam Card Game 卡牌辨識",
+  "priceService": "yuyu",
+  "gameCode": "gcg",
+  "regions": [
+    {
+      "name": "卡牌編號",
+      "type": "text",
+      "rect": { "x": 0.76, "y": 0.0, "width": 0.13, "height": 0.05 },
+      "presetType": "cardNumber",
+      "languages": ["en-US"],
+      "languageCorrection": false,
+      "normalize": [
+        { "type": "trim" },
+        { "type": "uppercase" },
+        { "type": "removeSpaces" },
+        { "type": "replace", "from": "\u2013", "to": "-" },
+        { "type": "replace", "from": "\u2014", "to": "-" },
+        { "type": "correctPrefix", "from": "G", "to": "GD" },
+        { "type": "correctPrefix", "from": "S", "to": "ST" },
+        { "type": "extract", "pattern": "[A-Z]{2}[0-9]{2}-[0-9]{3}" }
+      ]
+    }
+  ]
+}

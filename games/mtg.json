@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "mtg",
+  "name": "魔法風雲會",
+  "icon": "sparkles",
+  "color": "4A4A4A",
+  "description": "Magic: The Gathering 卡牌辨識",
+  "priceService": "scryfall",
+  "gameCode": "mtg",
+  "regions": [
+    {
+      "name": "卡名",
+      "type": "text",
+      "rect": { "x": 0.0752, "y": 0.047, "width": 0.7416, "height": 0.0585 },
+      "presetType": "cardName",
+      "languages": ["zh-Hant", "ja-JP", "en-US"],
+      "languageCorrection": true,
+      "normalize": [
+        { "type": "trim" }
+      ]
+    }
+  ]
+}

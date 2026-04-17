@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "pokemon",
+  "name": "寶可夢卡牌",
+  "icon": "bolt.circle.fill",
+  "color": "FFCB05",
+  "description": "PTCG 繁中/日版卡牌辨識",
+  "priceService": "ruten",
+  "gameCode": "pokemon",
+  "regions": [
+    {
+      "name": "卡名",
+      "type": "text",
+      "rect": { "x": 0.05, "y": 0.03, "width": 0.7, "height": 0.07 },
+      "presetType": "cardName",
+      "languages": ["zh-Hant", "ja-JP", "en-US"],
+      "languageCorrection": true,
+      "normalize": [
+        { "type": "trim" }
+      ]
+    }
+  ]
+}

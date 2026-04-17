@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "ygo",
+  "name": "遊戲王",
+  "icon": "triangle.fill",
+  "color": "8B4513",
+  "description": "Yu-Gi-Oh! 卡牌辨識",
+  "priceService": "yuyu",
+  "gameCode": "ygo",
+  "regions": [
+    {
+      "name": "卡牌編號",
+      "type": "text",
+      "rect": { "x": 0.7199, "y": 0.7141, "width": 0.1977, "height": 0.0394 },
+      "presetType": "cardNumber",
+      "languages": ["en-US"],
+      "languageCorrection": false,
+      "normalize": [
+        { "type": "trim" },
+        { "type": "uppercase" },
+        { "type": "removeSpaces" },
+        { "type": "extract", "pattern": "[A-Z]{2,4}-[A-Z]{2}[0-9O]{3}" },
+        { "type": "regex", "pattern": "O(?=[0-9O]{0,2}$)", "replacement": "0" }
+      ]
+    }
+  ]
+}
