@@ -52,6 +52,7 @@
       "name": "WS黑白雙翼",
       "icon": "rectangle.stack.fill",
       "color": "CC0000",
+      "iconURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/icons/ws.svg",
       "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/ws.json"
     }
   ]

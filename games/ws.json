@@ -7,7 +7,7 @@
   "description": "WS黑白雙翼卡牌辨識",
   "priceService": "yuyu",
   "gameCode": "ws",
-  "logoURL": "https://cdn.yuyu-tei.jp/images/gamelogo/ws.svg",
+  "logoURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/icons/ws.svg",
   "regions": [
     {
       "name": "卡牌編號",
