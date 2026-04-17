@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "ws",
+  "name": "WS黑白雙翼",
+  "icon": "triangle.fill",
+  "color": "8B4513",
+  "description": "WS黑白雙翼卡牌辨識",
+  "priceService": "yuyu",
+  "gameCode": "ws",
+  "logoURL": "https://cdn.yuyu-tei.jp/images/gamelogo/ws.svg",
+  "regions": [
+    {
+      "name": "卡牌編號",
+      "type": "text",
+      "rect": { "x": 0.7199, "y": 0.7141, "width": 0.1977, "height": 0.0394 },
+      "presetType": "cardNumber",
+      "languages": ["en-US"],
+      "languageCorrection": false,
+      "normalize": [
+        { "type": "trim" },
+        { "type": "uppercase" },
+        { "type": "removeSpaces" },
+        { "type": "extract", "pattern": "[A-Z]{3}/[A-Z][0-9]{3}-[0-9]{3}" }
+      ]
+    }
+  ]
+}
