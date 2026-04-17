@@ -50,9 +50,8 @@
       "type": "downloadable",
       "version": 1,
       "name": "WS黑白雙翼",
-      "icon": "triangle.fill",
-      "iconURL": "https://cdn.yuyu-tei.jp/images/gamelogo/ws.svg",
-      "color": "8B4513",
+      "icon": "rectangle.stack.fill",
+      "color": "CC0000",
       "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/ws.json"
     }
   ]
