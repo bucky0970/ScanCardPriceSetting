@@ -12,8 +12,16 @@
     {
       "name": "卡牌編號",
       "type": "text",
-      "rect": { "x": 0.7199, "y": 0.7141, "width": 0.1977, "height": 0.0394 },
-      "presetType": "cardNumber",
+"rect": [
+        [
+          0.096,
+          0.8793
+        ],
+        [
+          0.19,
+          0.0214
+        ]
+      ],      "presetType": "cardNumber",
       "languages": ["en-US"],
       "languageCorrection": false,
       "normalize": [
