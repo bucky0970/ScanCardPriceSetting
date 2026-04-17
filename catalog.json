@@ -5,6 +5,8 @@
       "type": "builtin",
       "version": 1,
       "name": "鋼彈卡牌",
+      "icon": "shield.fill",
+      "color": "1E90FF",
       "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/gcg.json"
     },
     {
@@ -12,6 +14,8 @@
       "type": "builtin",
       "version": 1,
       "name": "寶可夢卡牌",
+      "icon": "bolt.circle.fill",
+      "color": "FFCB05",
       "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/pokemon.json"
     },
     {
@@ -19,6 +23,8 @@
       "type": "builtin",
       "version": 1,
       "name": "魔法風雲會",
+      "icon": "sparkles",
+      "color": "4A4A4A",
       "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/mtg.json"
     },
     {
@@ -26,6 +32,8 @@
       "type": "builtin",
       "version": 1,
       "name": "hololive 卡牌",
+      "icon": "star.fill",
+      "color": "00B4FF",
       "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/hocg.json"
     },
     {
@@ -33,6 +41,8 @@
       "type": "builtin",
       "version": 1,
       "name": "遊戲王",
+      "icon": "triangle.fill",
+      "color": "8B4513",
       "configURL": "https://raw.githubusercontent.com/bucky0970/ScanCardPriceSetting/main/games/ygo.json"
     }
   ]
